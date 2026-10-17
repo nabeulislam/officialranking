@@ -36,6 +36,15 @@
     <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
     <link rel="icon" href="./favicon.ico">
 
+    <script>
+        // Keep the historical Vercel URL (#user_key) opening Round 2 while
+        // GitHub Pages continues to show the archive landing page.
+        if (window.location.hostname === "bdois2-ranking.vercel.app" &&
+            window.location.pathname === "/") {
+            window.location.replace("/bdoids-round-2/" + window.location.hash);
+        }
+    </script>
+
     <!-- end custom head snippets -->
 
   <link rel="stylesheet" crossorigin href="./assets/style-BAgyQouN.css">
