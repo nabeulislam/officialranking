@@ -4,9 +4,9 @@
 
 The `site/` application merges the three BdOIDS ranking archives into one static archive:
 
-- [BdOIDS Round 1](https://nabeulislam.github.io/officialranking/bdoids-round-1/): officialranking data
-- [BdOIDS Round 2](https://nabeulislam.github.io/officialranking/bdoids-round-2/): bdois2-ranking data
-- [BdOIDS Round 3](https://nabeulislam.github.io/officialranking/bdoids-round-3/): the local archive data
+- [BdOIDS Round 1](https://nabeulislam.github.io/bdoids-round-1/): officialranking data
+- [BdOIDS Round 2](https://nabeulislam.github.io/bdoids-round-2/): bdois2-ranking data
+- [BdOIDS Round 3](https://nabeulislam.github.io/bdoids-round-3/): the local archive data
 
 It uses the IOI-archive-style replay interface, but the branding and labels are BdOIDS-specific. The scoreboard does not display participant IDs; names, teams, task scores, round totals, and the final total remain available. Each round keeps its own users, tasks, scores, submission history, faces, flags, and award/unofficial configuration.
 
