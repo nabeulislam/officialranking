@@ -1,113 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset='utf-8'/>
-        <link rel="shortcut icon" href="img/favicon.ico" />
-        <link rel='stylesheet' href='Ranking.css?v=2'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>
-if (typeof jQuery == 'undefined') {
-    document.write(unescape("%3Cscript src='lib/jquery.js'%3E%3C/script%3E"));
-}
-if (!("EventSource" in window)) {
-    document.write(unescape("%3Cscript src='lib/eventsource.js'%3E%3C/script%3E"));
-}
-        </script>
-        <script src="lib/raphael.js"></script>
-        <!--[if lt IE 9]>
-            <script src="lib/explorercanvas.js"></script>
-        <![endif]-->
-        <script src="Config.js?v=2"></script>
-        <script src="DataStore.js?v=2"></script>
-        <script src="HistoryStore.js?v=2"></script>
-        <script src="Chart.js?v=2"></script>
-        <script src="UserDetail.js?v=2"></script>
-        <script src="TimeView.js?v=2"></script>
-        <script src="TeamSearch.js?v=2"></script>
-        <script src="Overview.js?v=2"></script>
-        <script src="Scoreboard.js?v=2"></script>
-        <script src="Ranking.js?v=2"></script>
-        <title>Ranking - Archived</title>
-    </head>
-    <body>
-        <div id="OuterFrame">
-            <div id="LogoPanel">
-                <img src="img/logo.png" alt="Logo" />
-            </div>
-            <div id="UpperPanel">
-                <div id="ConnectionStatus_box">
-                    <div id="ConnectionStatus_label">Status</div>
-                    <div id="ConnectionStatus_text"></div>
-                </div>
-            </div>
-            <div id="TimeView">
-                <div id="TimeView_name"></div>
-                <div id="TimeView_selector">
-                    <div id="TimeView_time"></div><div id="TimeView_expand"><div class="caret"></div></div>
-                    <div id="TimeView_selector_elapsed">Elapsed time</div>
-                    <div id="TimeView_selector_remaining">Remaining time</div>
-                    <div id="TimeView_selector_current">Current time</div>
-                </div>
-            </div>
-            <div id="SidePanel">
-                <div id="Overview"></div>
-                <div style="color: #999; text-align: center; font-size: 12px; padding-top: 5px;">
-                    Powered by <a style="color: #00A3DA; text-decoration: none;" href="https://cms-dev.github.io/" target="_blank">CMS</a>
-                </div>
-            </div>
-            <div id="InnerFrame">
-                <table id="Scoreboard">
-                    <colgroup id="Scoreboard_cols"></colgroup>
-                    <thead id="Scoreboard_head"></thead>
-                    <tbody id="Scoreboard_body"></tbody>
-                </table>
-            </div>
-        </div>
-        <input id="TeamSearch_input" type="search" placeholder="Search Team"/>
-        <div id="TeamSearch_bg">
-            <div id="TeamSearch">
-                <img id="TeamSearch_close" src="img/close.png" alt="Close"/>
-                <div id="TeamSearch_body"></div>
-            </div>
-        </div>
-        <div id="UserDetail_bg">
-            <div id="UserDetail">
-                <img id="UserDetail_close" src="img/close.png" alt="Close"/>
-                <div id="UserDetail_header">
-                    <div id="UserDetail_summary">
-                        <img id="UserDetail_face" src="" alt="Face"/>
-                        <div id="UserDetail_f_name"></div>
-                        <div id="UserDetail_l_name"></div>
-                        <div id="UserDetail_team"></div>
-                        <img id="UserDetail_flag" src="" alt="Flag"/>
-                    </div>
-                    <div id="UserDetail_navigator">
-                        <table>
-                            <col class="name"/>
-                            <col class="score"/>
-                            <col class="rank"/>
-                            <col class="show"/>
-                            <thead>
-                                <tr>
-                                    <td></td>
-                                    <td>Score</td>
-                                    <td>Rank</td>
-                                    <td></td>
-                                </tr>
-                            </thead>
-                            <tbody id="UserDetail_scores">
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div id="UserDetail_title"></div>
-                <div id="UserDetail_charts">
-                    <canvas id="UserDetail_score_chart" width="920" height="250"></canvas>
-                    <canvas id="UserDetail_rank_chart" width="920" height="250"></canvas>
-                </div>
-                <div id="UserDetail_submissions">
-                </div>
-            </div>
-        </div>
-    </body>
-</html> 
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>BdOIDS Rankings Archive</title>
+    <meta name="generator" content="Jekyll v3.9.5"/>
+    <meta property="og:title" content="BdOIDS Rankings Archive"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta name="description" content="Archive of BdOIDS rankings"/>
+    <meta property="og:description" content="Archive of BdOIDS rankings"/>
+    <meta property="og:site_name" content="BdOIDS Rankings Archive"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="BdOIDS Rankings Archive"/>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "description": "Archive of BdOIDS rankings",
+            "headline": "BdOIDS Rankings Archive",
+            "name": "BdOIDS Rankings Archive",
+            "url": "/"
+        }</script>
+    <!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+    <!-- Setup Google Analytics -->
+
+
+    <!-- You can set your favicon here -->
+    <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- end custom head snippets -->
+
+  <link rel="stylesheet" crossorigin href="./assets/style-BAgyQouN.css">
+</head>
+<body>
+<div class="container-lg px-3 my-5 markdown-body">
+
+    <h1>BdOIDS Rankings Archive</h1>
+
+
+    <p>An archive of BdOIDS contests in the CMS ranking format.</p>
+
+    <ul>
+        <li><a href="bdoids-round-1/">BdOIDS Round 1</a></li>
+        <li><a href="bdoids-round-2/">BdOIDS Round 2</a></li>
+        <li><a href="bdoids-round-3/">BdOIDS Round 3</a></li>
+    </ul>
+
+
+    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        Powered by the CMS ranking archive format.
+    </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>anchors.add();</script>
+</body>
+</html>
