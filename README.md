@@ -35,6 +35,8 @@ Host your archived contest scoreboards effortlessly on **GitHub Pages**, **Verce
   - **Cheater / Disqualified**: Highlight specific participants in red (`--cheaters`).
   - **Unofficial / Guest Users**: Highlight guest participants in blue (`--unofficial-users`).
   - **Unofficial Contests**: Easily toggle medal rendering off for unofficial rounds (`--unofficial` or `--no-medals`).
+- 🧩 **Metadata-Preserving Re-archives**: If the source exposes `asset_config`, the archiver keeps its cheater/unofficial lists, medal rules, Honorable Mention settings, and layout flags unless explicitly overridden.
+- 🧾 **Original Score Preservation**: Cheater labels do not change the archived scores or rank by default. Use `--zero-cheater-scores` only when a zeroed ranking is intentional.
 - 📊 **Custom Scoreboard Layouts**: Option to hide contest totals (`--nocontest`) or global totals (`--noglobal`).
 - 📁 **JSON Data Exporter (`export_json.py`)**: Consolidates raw CMS archive files into a clean `ranklist.json` containing total scores, rank, individual task scores (with explicit `0.0` for missing/unattempted tasks), user full name, team, and cheater/unofficial tags.
 - 🚀 **Deployment Ready**: Pre-configured with cache-busting static assets and `vercel.json` for instant deployment.
@@ -95,6 +97,7 @@ python3 rws-archiver.py https://ranking.nabeul.ami.bd bdoids_round1 \
 | `--unofficial` | Mark entire contest as unofficial (disables medal highlights) |
 | `--unofficial-users <KEYS...>` | Space-separated user keys to highlight in blue as unofficial |
 | `--cheaters <KEYS...>` | Space-separated user keys to highlight in red as cheaters/disqualified |
+| `--zero-cheater-scores` | Explicitly zero task scores for marked cheaters; off by default |
 | `--nocontest` | Hide contest total columns from scoreboard |
 | `--noglobal` | Hide global total column from scoreboard |
 | `--nofaces` | Skip downloading user avatars/faces |
