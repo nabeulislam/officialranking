@@ -10,6 +10,8 @@ The `site/` application merges the three BdOIDS ranking archives into one static
 
 It uses the IOI-archive-style replay interface, but the branding and labels are BdOIDS-specific. The scoreboard does not display participant IDs; names, teams, task scores, round totals, and the final total remain available. Each round keeps its own users, tasks, scores, submission history, faces, flags, and award/unofficial configuration.
 
+The current Round 4 archive is published as [BdOI Practice Round 4](https://nabeulislam.github.io/officialranking/bdoi-practice-round-4/). The historical `/bdoids-round-4/` path redirects there.
+
 Build the merged site with:
 
 ```bash
