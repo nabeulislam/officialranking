@@ -10,13 +10,13 @@
     "BGD78"
   ],
   "medals": {
-    "gold": 2,
+    "gold": 3,
     "silver": 5,
     "bronze": 8
   },
   "zero_cheater_scores": true,
   "medal_score_thresholds": {
-    "gold": 225,
+    "gold": 220,
     "silver": 145,
     "bronze": 119
   }
