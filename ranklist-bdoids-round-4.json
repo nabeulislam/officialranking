@@ -1,0 +1,512 @@
+[
+  {
+    "username": "BGD10",
+    "first_name": "Aritro",
+    "last_name": "Sarkar",
+    "full_name": "Aritro Sarkar",
+    "team": "BGD",
+    "scores": {
+      "winter": 100.0,
+      "anya": 100.0,
+      "roulette": 45.0
+    },
+    "total": 245.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 1,
+    "award": "gold"
+  },
+  {
+    "username": "BGD13",
+    "first_name": "Fahmid",
+    "last_name": "Hasan",
+    "full_name": "Fahmid Hasan",
+    "team": "BGD",
+    "scores": {
+      "winter": 100.0,
+      "anya": 100.0,
+      "roulette": 45.0
+    },
+    "total": 245.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 2,
+    "award": "gold"
+  },
+  {
+    "username": "BGD23",
+    "first_name": "Ivan",
+    "last_name": "Ahsan",
+    "full_name": "Ivan Ahsan",
+    "team": "BGD",
+    "scores": {
+      "winter": 100.0,
+      "anya": 100.0,
+      "roulette": 20.0
+    },
+    "total": 220.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 3,
+    "award": "silver"
+  },
+  {
+    "username": "BGD80",
+    "first_name": "Abdullah",
+    "last_name": "Siddique",
+    "full_name": "Abdullah Siddique",
+    "team": "BGD",
+    "scores": {
+      "winter": 60.0,
+      "anya": 100.0,
+      "roulette": 0.0
+    },
+    "total": 160.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 4,
+    "award": "silver"
+  },
+  {
+    "username": "BGD81",
+    "first_name": "Mohammad",
+    "last_name": "Yeasin Arafat Mahi",
+    "full_name": "Mohammad Yeasin Arafat Mahi",
+    "team": "BGD",
+    "scores": {
+      "winter": 100.0,
+      "anya": 45.0,
+      "roulette": 0.0
+    },
+    "total": 145.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 5,
+    "award": "silver"
+  },
+  {
+    "username": "BGD11",
+    "first_name": "Md",
+    "last_name": "Jubayer Hossain Jisan",
+    "full_name": "Md Jubayer Hossain Jisan",
+    "team": "BGD",
+    "scores": {
+      "winter": 60.0,
+      "anya": 70.0,
+      "roulette": 0.0
+    },
+    "total": 130.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 6,
+    "award": "bronze"
+  },
+  {
+    "username": "BGD17",
+    "first_name": "Md. Jahir",
+    "last_name": "Shabab",
+    "full_name": "Md. Jahir Shabab",
+    "team": "BGD",
+    "scores": {
+      "winter": 100.0,
+      "anya": 25.0,
+      "roulette": 0.0
+    },
+    "total": 125.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 7,
+    "award": "bronze"
+  },
+  {
+    "username": "BGD1",
+    "first_name": "Mohammed",
+    "last_name": "Marzuq Rahman",
+    "full_name": "Mohammed Marzuq Rahman",
+    "team": "BGD",
+    "scores": {
+      "winter": 54.0,
+      "anya": 45.0,
+      "roulette": 20.0
+    },
+    "total": 119.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 8,
+    "award": "bronze"
+  },
+  {
+    "username": "BGD8",
+    "first_name": "Smita",
+    "last_name": "Sarkar",
+    "full_name": "Smita Sarkar",
+    "team": "BGD",
+    "scores": {
+      "winter": 60.0,
+      "anya": 20.0,
+      "roulette": 0.0
+    },
+    "total": 80.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 9,
+    "award": ""
+  },
+  {
+    "username": "BGD12",
+    "first_name": "Raif",
+    "last_name": "Hasan",
+    "full_name": "Raif Hasan",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 70.0,
+      "roulette": 0.0
+    },
+    "total": 70.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 10,
+    "award": ""
+  },
+  {
+    "username": "BGD67",
+    "first_name": "Shakhawat",
+    "last_name": "ibna hossain Ramin",
+    "full_name": "Shakhawat ibna hossain Ramin",
+    "team": "BGD",
+    "scores": {
+      "winter": 60.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 60.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 11,
+    "award": ""
+  },
+  {
+    "username": "BGD100",
+    "first_name": "Tahsin",
+    "last_name": "Siyam",
+    "full_name": "Tahsin Siyam",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 12,
+    "award": ""
+  },
+  {
+    "username": "BGD102",
+    "first_name": "Soumyadeep",
+    "last_name": "Das",
+    "full_name": "Soumyadeep Das",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 13,
+    "award": ""
+  },
+  {
+    "username": "BGD42",
+    "first_name": "Nafis",
+    "last_name": "Abdullah",
+    "full_name": "Nafis Abdullah",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 14,
+    "award": ""
+  },
+  {
+    "username": "BGD55",
+    "first_name": "Murtaza",
+    "last_name": "Abdullah",
+    "full_name": "Murtaza Abdullah",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 15,
+    "award": ""
+  },
+  {
+    "username": "BGD70",
+    "first_name": "Fahim",
+    "last_name": "Hossain",
+    "full_name": "Fahim Hossain",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 16,
+    "award": ""
+  },
+  {
+    "username": "BGD71",
+    "first_name": "Ahanaf",
+    "last_name": "Adib",
+    "full_name": "Ahanaf Adib",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 17,
+    "award": ""
+  },
+  {
+    "username": "BGD72",
+    "first_name": "Sheikh",
+    "last_name": "Barkotullah",
+    "full_name": "Sheikh Barkotullah",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 18,
+    "award": ""
+  },
+  {
+    "username": "BGD73",
+    "first_name": "Ryan",
+    "last_name": "Nafis",
+    "full_name": "Ryan Nafis",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 19,
+    "award": ""
+  },
+  {
+    "username": "BGD74",
+    "first_name": "Shafayet",
+    "last_name": "Islam Ifaz",
+    "full_name": "Shafayet Islam Ifaz",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 20,
+    "award": ""
+  },
+  {
+    "username": "BGD78",
+    "first_name": "Rajdip",
+    "last_name": "mohajan",
+    "full_name": "Rajdip mohajan",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": true,
+    "is_unofficial": false,
+    "rank": 21,
+    "award": ""
+  },
+  {
+    "username": "BGD83",
+    "first_name": "Md Shams Arefin",
+    "last_name": "Kolpo",
+    "full_name": "Md Shams Arefin Kolpo",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 22,
+    "award": ""
+  },
+  {
+    "username": "BGD84",
+    "first_name": "Ahnaf",
+    "last_name": "Wafiq",
+    "full_name": "Ahnaf Wafiq",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 23,
+    "award": ""
+  },
+  {
+    "username": "BGD85",
+    "first_name": "Mahiya",
+    "last_name": "Afrin",
+    "full_name": "Mahiya Afrin",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 24,
+    "award": ""
+  },
+  {
+    "username": "BGD91",
+    "first_name": "Fariza",
+    "last_name": "Ahmad",
+    "full_name": "Fariza Ahmad",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 25,
+    "award": ""
+  },
+  {
+    "username": "BGD92",
+    "first_name": "EMDADUL",
+    "last_name": "HOQUE",
+    "full_name": "EMDADUL HOQUE",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 26,
+    "award": ""
+  },
+  {
+    "username": "BGD93",
+    "first_name": "Zuhyre",
+    "last_name": "Shehjad Kamal Chowdhury",
+    "full_name": "Zuhyre Shehjad Kamal Chowdhury",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 27,
+    "award": ""
+  },
+  {
+    "username": "BGD94",
+    "first_name": "Ashikur",
+    "last_name": "Zaman Kollol",
+    "full_name": "Ashikur Zaman Kollol",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 28,
+    "award": ""
+  },
+  {
+    "username": "BGD97",
+    "first_name": "Shahadat",
+    "last_name": "Hossain Shafi",
+    "full_name": "Shahadat Hossain Shafi",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 29,
+    "award": ""
+  },
+  {
+    "username": "BGD98",
+    "first_name": "Wafiza",
+    "last_name": "Zaara Sarker",
+    "full_name": "Wafiza Zaara Sarker",
+    "team": "BGD",
+    "scores": {
+      "winter": 0.0,
+      "anya": 0.0,
+      "roulette": 0.0
+    },
+    "total": 0.0,
+    "is_cheater": false,
+    "is_unofficial": false,
+    "rank": 30,
+    "award": ""
+  }
+]

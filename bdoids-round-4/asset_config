@@ -1,0 +1,23 @@
+{
+  "nofaces": false,
+  "noflags": false,
+  "nosublist": false,
+  "nocontest": false,
+  "noglobal": false,
+  "unofficial": false,
+  "unofficial_users": [],
+  "cheaters": [
+    "BGD78"
+  ],
+  "medals": {
+    "gold": 2,
+    "silver": 5,
+    "bronze": 8
+  },
+  "zero_cheater_scores": true,
+  "medal_score_thresholds": {
+    "gold": 225,
+    "silver": 145,
+    "bronze": 119
+  }
+}
